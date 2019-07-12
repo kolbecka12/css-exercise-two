@@ -1,10 +1,58 @@
+/* Font Sizes */
+
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 2.8em; /* 32px */
+  line-height: 300%;
+  font-family: 'DM Serif Display', Times, serif;
+}
+
+h3 {
+  font-size: 1.4em; /* 20.8px */
+  line-height: 150%;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-size: 100%; /* 16px */
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+a:link { color:#AAA0F8; } /* unvisited */
+a:visited { color:#D7D3FD; } /* visited */
+a:hover { color:#ffffff; } /* mouse over */
+a:active { color:#D7D3FD; } /* selected */
+
+.author {
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+figcaption {
+  font-size: 80%;
+  color: #636363;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #3E2AEE;
   float: left;
   position: fixed;
   width: 100%;
