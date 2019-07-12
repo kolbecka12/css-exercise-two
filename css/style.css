@@ -17,12 +17,22 @@ h3 {
   line-height: 150%;
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 300;
+  margin-bottom: 40px;
 }
 
 p {
   font-size: 100%; /* 16px */
   font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-weight: 400;
+}
+
+/* nav + links */
+
+nav {
+  background-color: #3E2AEE;
+  float: left;
+  position: fixed;
+  width: 100%;
 }
 
 a {
@@ -39,23 +49,14 @@ a:active { color:#D7D3FD; } /* selected */
 
 .author {
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
-body {
-  background-color: #ffffff;
-  color: #000000;
-}
+/* images */
 
 figcaption {
   font-size: 80%;
   color: #636363;
-}
-
-nav {
-  background-color: #3E2AEE;
-  float: left;
-  position: fixed;
-  width: 100%;
 }
 
 .logo {
@@ -69,6 +70,12 @@ nav {
 
 .medium-pic {
   width: 70%;
+}
+
+/* body text */
+body {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .left, .right {
@@ -92,9 +99,14 @@ li {
 
 article {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+p + p {
+  margin-top: 30px;
 }
